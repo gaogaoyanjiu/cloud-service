@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="api-model" />
+        <module name="commons" />
+        <module name="config-center" />
+        <module name="file-center" />
+        <module name="gateway-zuul" />
+        <module name="log-center" />
+        <module name="log-starter" />
+        <module name="manage-backend" />
+        <module name="monitor-center" />
+        <module name="notification-center" />
+        <module name="oauth-center" />
+        <module name="register-center" />
+        <module name="user-center" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api-model" target="1.8" />
+      <module name="cloud-service" target="1.8" />
+      <module name="commons" target="1.8" />
+      <module name="config-center" target="1.8" />
+      <module name="file-center" target="1.8" />
+      <module name="gateway-zuul" target="1.8" />
+      <module name="log-center" target="1.8" />
+      <module name="log-starter" target="1.8" />
+      <module name="manage-backend" target="1.8" />
+      <module name="monitor-center" target="1.8" />
+      <module name="notification-center" target="1.8" />
+      <module name="oauth-center" target="1.8" />
+      <module name="register-center" target="1.8" />
+      <module name="user-center" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
